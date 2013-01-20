@@ -4,6 +4,11 @@ Created on 21.01.2013
 @author: rekzah
 '''
 
+def iAmAFunction(argument):
+    returnValue = 6
+    print argument
+    return returnValue 
+
 if __name__ == '__main__':
     print 'hello world'
     
@@ -27,3 +32,7 @@ if __name__ == '__main__':
         print 'Janina is very pretty indeed!'
     else:
         print 'Janina is not very pretty.'
+        
+    # Call a function
+    returnVal = iAmAFunction(janinaIsPretty)
+    print returnVal
